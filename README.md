@@ -9,10 +9,11 @@ BCEWithLogitsLoss y pos_weight para desbalanceo, y evaluación con métricas y g
 
 Estructura mínima del proyecto
 ------------------------------
+```text
 .
-├─ 01_proyecto.ipynb         # Notebook principal (puede tener otro nombre)
+├─ 01_proyecto.ipynb         # Notebook principal
 ├─ transactions.csv          # Dataset en CSV
-└─ README.txt                # Este archivo
+└─ README.md                 # Este archivo
 
 
 Dataset
@@ -29,15 +30,6 @@ Requisitos
 ----------
 - Python 3.10+ recomendado
 - Librerías principales: pandas, numpy, matplotlib, scikit-learn, torch, ipython
-
-Instalación rápida (CPU):
-    python -m venv .venv
-    source .venv/bin/activate    # en Windows: .venv\Scripts\activate
-    pip install -U pip
-    pip install pandas numpy matplotlib scikit-learn ipython
-    # Instalar PyTorch según tu plataforma (CPU/GPU): https://pytorch.org/get-started/locally/
-
-Sugerencia (GPU con CUDA): instalar torch/torchvision/torchaudio desde la guía oficial de PyTorch.
 
 
 Ejecución

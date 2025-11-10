@@ -1,0 +1,12 @@
+# Requisitos mínimos del proyecto
+pandas
+numpy
+matplotlib
+scikit-learn
+ipython
+ipykernel
+
+# PyTorch: instala la variante adecuada a tu plataforma (CPU/CUDA).
+# Esta línea instala la versión por defecto (CPU). Para CUDA, sigue la guía oficial:
+# https://pytorch.org/get-started/locally/
+torch
